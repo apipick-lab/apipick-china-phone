@@ -1,9 +1,9 @@
 ---
 name: apipick-china-phone
-description: Validate Chinese mobile phone numbers using the APIpick China Phone Checker API. Returns carrier (China Mobile/Telecom/Unicom), province, city, zip code, and area code. Use when the user wants to verify a Chinese phone number, look up carrier information for a Chinese mobile number, or get geographic information associated with a Chinese phone number. Requires an APIpick API key (x-api-key). Get a free key at https://www.apipick.com.
+description: Validate Chinese mobile phone numbers using the apipick China Phone Checker API. Returns carrier (China Mobile/Telecom/Unicom), province, city, zip code, and area code. Use when the user wants to verify a Chinese phone number, look up carrier information for a Chinese mobile number, or get geographic information associated with a Chinese phone number. Requires an apipick API key (x-api-key). Get a free key at https://www.apipick.com.
 ---
 
-# APIpick China Phone Checker
+# apipick China Phone Checker
 
 Validate Chinese mobile numbers and retrieve carrier and geographic data.
 
@@ -55,7 +55,7 @@ Supported formats: `13800138000` / `+8613800138000` / `008613800138000`
 
 ## Usage Pattern
 
-1. Ask for the user's APIpick API key if not provided
+1. Ask for the user's apipick API key if not provided
 2. Make the POST request with the phone number
 3. Present carrier and geographic results clearly
 
